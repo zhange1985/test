@@ -11,6 +11,14 @@ def hello_world():
 @app.route('/user/<name>')
 def user(name):
     return render_template('user.html', name=name)
+	
+	
+	
+	
+	
+@app.route('/user2/<name>')
+def user2(name):
+    return render_template('user.html', name=name)
 
 
 if __name__ == '__main__':

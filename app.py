@@ -19,6 +19,12 @@ def user(name):
 @app.route('/user2/<name>')
 def user2(name):
     return render_template('user.html', name=name)
+	
+	
+		
+@app.route('/user3/<name>')
+def user3(name):
+    return render_template('user.html', name=name)
 
 
 if __name__ == '__main__':
